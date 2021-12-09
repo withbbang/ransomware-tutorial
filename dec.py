@@ -27,7 +27,7 @@ def decrypt_file(key, in_filename, out_filename=None, chunksize=24*1024):
 
             outfile.truncate(origsize) # 새 파일에 언패킹한 크기 만큼 잘라냄
 
-key = b'This is a yankee' # AES 암호화에사용될 키값을 바이너리로 생성
+key = b'This is a bread' # AES 암호화에사용될 키값을 바이너리로 생성
 startPath = 'C:/Users/82107/Desktop/test/**' # 암 / 복호화할 대상 경로
 
 #Decrypts the files

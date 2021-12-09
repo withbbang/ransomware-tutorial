@@ -24,7 +24,7 @@ def encrypt_file(key, in_filename, out_filename=None, chunksize=64*1024):
 
                 outfile.write(encryptor.encrypt(chunk)) # AES로 암호화 한 쓰레기를 새 파일에 작성하고 종료
 
-key = b'This is a yankee' # AES 암호화에사용될 키값을 바이너리로 생성
+key = b'This is a bread' # AES 암호화에사용될 키값을 바이너리로 생성
 startPath = 'C:/Users/82107/Desktop/test/**' # 암 / 복호화할 대상 경로
 
 #Encrypts all files recursively starting from startPath
